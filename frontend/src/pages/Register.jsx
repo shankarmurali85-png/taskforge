@@ -12,7 +12,7 @@ export default function Register() {
   const register = async () => {
     try {
       await axios.post(
-        "http://127.0.0.1:8000/api/register/",
+        "https://taskforge-698p.onrender.com/api/register/",
         form
       );
 
