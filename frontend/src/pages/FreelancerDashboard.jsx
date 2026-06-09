@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE = "https://taskforge-698p.onrender.com/api/";
+const API_BASE = "https://taskforge-698p.onrender.com/api";
 
 function FreelancerDashboard() {
   const [user, setUser] = useState(null);
