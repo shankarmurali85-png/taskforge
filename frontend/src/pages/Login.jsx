@@ -23,7 +23,7 @@ export default function Login() {
     localStorage.setItem("refresh", res.data.refresh);
 
     const userRes = await axios.get(
-      "http://127.0.0.1:8000/api/me/",
+      "https://taskforge-698p.onrender.com/api/me/",
       {
         headers: {
           Authorization: `Bearer ${res.data.access}`,
