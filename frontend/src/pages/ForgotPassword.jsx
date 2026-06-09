@@ -7,7 +7,7 @@ export default function ForgotPassword() {
   const sendLink = async () => {
     try {
       await axios.post(
-        "https://taskforge-698p.onrender.com/api/forgot-password",
+        "https://taskforge-698p.onrender.com/api/forgot-password/",
         { email }
       );
 
