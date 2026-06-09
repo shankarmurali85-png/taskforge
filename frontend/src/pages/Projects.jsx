@@ -13,7 +13,7 @@ function Projects() {
       const token = localStorage.getItem("access");
 
       const res = await axios.get(
-        "http://127.0.0.1:8000/api/projects/",
+        "https://taskforge-698p.onrender.com/api/projects/",
         {
           headers: {
             Authorization: `Bearer ${token}`,
