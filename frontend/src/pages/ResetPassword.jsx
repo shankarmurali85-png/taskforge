@@ -25,7 +25,7 @@ function ResetPassword() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/reset-password/",
+        "https://taskforge-698p.onrender.com/api/reset-password/",
         {
           user_id,
           token,
