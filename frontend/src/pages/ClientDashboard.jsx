@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE = "http://127.0.0.1:8000/api";
+const API_BASE = "https://taskforge-698p.onrender.com/api/";
 
 function ClientDashboard() {
   const [user, setUser] = useState(null);
