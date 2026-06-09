@@ -77,9 +77,9 @@ class RegisterSerializer(serializers.ModelSerializer):
 
         # Verification link
         verification_link = (
-            f"http://localhost:8000/api/verify-email/"
-            f"?token={token}"
-        )
+    f"https://taskforge-698p.onrender.com/api/verify-email/"
+    f"?token={token}"
+)
 
         # Send email
         resend.Emails.send({
